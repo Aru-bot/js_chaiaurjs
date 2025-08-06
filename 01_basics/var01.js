@@ -8,5 +8,5 @@ console.log(accountEmail);
 console.log(accountpassword);
 console.log(accountCity);
 accountCity="Kitty Land"
-//{ } are called scope hence when we use var it changes a lot due to confusion and it's use, and its block and functional scope is not helpful infact causes problems, hence we use let
+// { } are called scopes. When we use 'var', it can cause confusion due to its function and block scope behavior, which is not helpful and in fact causes problems. Therefore, we use 'let'.
 console.table([accountEmail,accountId,accountCity,accountpassword])
